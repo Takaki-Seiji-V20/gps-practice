@@ -1,3 +1,23 @@
 <resources>
-    <string name="app_name">MyGPSApplication</string>
+    <string name="app_name">GpsStateList</string>
+    <string name="yes">はい</string>
+    <string name="no">いいえ</string>
+    <!-- ボタン関係 -->
+    <string name="location_btn">GET NOW LOCATION</string>
+    <string name="list_btn">COMP LIST</string>
+    <string name="twitter_login_btn">Twitter Login</string>
+    <!-- ダイアログ/トースト関係 -->
+    <string name="get_now_location">現在地取得中・・・</string>
+    <string name="timeout">タイムアウトしました。</string>
+    <string name="now_login">ログインしています。</string>
+    <string name="network_error">通信に失敗しました。</string>
+    <string name="twitter_login_alert">Twitterにログインしてください。</string>
+    <string name="twitter_post">Twitterに投稿しました。</string>
+    <string name="twitter_post_error">Twitterの投稿に失敗しました。</string>
+    <string name="check_twitter_post">現在地は%sです。\nTwitterにつぶやきますか？</string>
+    <string name="twitter_login_success">ログインしました。</string>
+    <string name="twitter_login_fail">ログインに失敗しました。</string>
+    <!-- Tweetメッセージ -->
+    <string name="tweet_msg">私は今、【%s】に居ます。</string>
+
 </resources>

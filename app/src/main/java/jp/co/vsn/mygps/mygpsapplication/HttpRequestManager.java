@@ -23,8 +23,14 @@ public class HttpRequestManager {
             httpParms.setIntParameter(CoreConnectionPNames.CONNECTION_TIMEOUT, TIME_OUT);
             httpParms.setIntParameter(CoreConnectionPNames.SO_TIMEOUT, TIME_OUT);
             HttpClient httpClient = new DefaultHttpClient(httpParms);
+
+
             HttpGet httpGet = new HttpGet(url);
+
+
             httpGet.setParams(httpParms);
+
+
             HttpResponse httpResponse = httpClient.execute(httpGet);
             if (httpResponse.getStatusLine().getStatusCode() < 400) {
                 InputStream inputStream = httpResponse.getEntity().getContent();
